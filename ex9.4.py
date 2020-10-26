@@ -12,9 +12,16 @@ for line in handle:
 count = None
 email = None
 
+<<<<<<< HEAD
+for ke,val in names.items():
+    if count is None or val > count:
+        count = val
+        email = ke
+=======
 for k,v in names.items():
     if count is None or v > count:
         count = v
         email = k
+>>>>>>> origin
 print(email,count)
 
